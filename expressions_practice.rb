@@ -25,7 +25,7 @@ p find_numbers("The order was placed for 100.25 units at a price of 20.75 each."
 
 #########################################################
 def valid_date?(date) 
-    pattern = /[^\w]\d{,2}$/
+    pattern = /[^\w](\d{,2})$/
     date.match?(pattern) 
 end 
    
